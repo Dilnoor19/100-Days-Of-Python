@@ -49,10 +49,13 @@
 #         a = i
 # print(a)
 '''9'''
-nums = [12, 45, 3, 89, 23]
-smallest = nums[0]
-for i in nums:
-    if i < smallest:
-        smallest = i
+# nums = [12, 45, 3, 89, 23]
+# smallest = nums[0]
+# for i in nums:
+#     if i < smallest:
+#         smallest = i
 
-print(smallest)
+# print(smallest)
+'''10'''
+for i in range(1,5):
+    print("*" * i)
