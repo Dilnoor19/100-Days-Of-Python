@@ -43,3 +43,43 @@ print(f"{name} is {age} years old")
 # Centering a string
 name = "Dilnoor"
 print(f"{name:{'-'}^20}")
+
+
+# Practise exercises
+# 1> Basic variable usuage
+
+name , age , my_height ,am_i_a_student = "Dilnoor singh", 19, 5.10, True
+print(name , age , my_height ,am_i_a_student)
+print(type(name))
+print(type(age))
+print(type(my_height))
+print(type(am_i_a_student))
+
+
+# 2> Type conversion
+
+intoInt = int("123")
+intoString = str(123)
+float_to_int = int(12.34)
+bool_to_string = str(True)
+
+print(type(intoInt))
+print(type(intoString))
+print(type(float_to_int))
+print(type(bool_to_string))
+
+print(intoInt)
+print(intoString)
+print(float_to_int)
+print(bool_to_string)
+
+# 3> Variable Manipulation
+first_variable = 20
+second_variable = 30
+
+add = first_variable + second_variable
+sub = first_variable - second_variable
+divide = first_variable // second_variable
+multiply = first_variable * second_variable
+
+print(add,sub,divide,multiply)
