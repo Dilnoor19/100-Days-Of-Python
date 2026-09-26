@@ -24,3 +24,19 @@ print(x <= y)    # Less than or equal to: False
 # Chained comparisons
 age = 25
 print(18 <= age < 65)  # Check if age is between 18 and 65: True
+
+# Basic assignment
+x = 10
+
+# Combined operators
+x += 5      # Same as: x = x + 5, Now x is 15
+x -= 3      # Same as: x = x - 3, Now x is 12
+x *= 2      # Same as: x = x * 2, Now x is 24
+x /= 6      # Same as: x = x / 6, Now x is 4.0 (note: becomes float)
+x //= 2     # Same as: x = x // 2, Now x is 2.0
+x **= 3     # Same as: x = x ** 3, Now x is 8.0
+x %= 3      # Same as: x = x % 3, Now x is 2.0
+
+# Works with strings too
+message = "Hello"
+message += " World"  # message becomes "Hello World"
